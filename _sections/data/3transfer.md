@@ -5,4 +5,6 @@ order: 3
 showOn: [Data Services]
 ---
 
-Risus viverra adipiscing at in. Mattis rhoncus urna neque viverra justo nec ultrices dui. Cursus metus aliquam eleifend mi in. Feugiat in ante metus dictum at tempor. Non enim praesent elementum facilisis. Tempor orci eu lobortis elementum nibh tellus molestie nunc non.
+If you are planning on using a new system, you might want to **keep all your documents, family photos, videos and your music collection from your old computer**. 
+
+Alternatively, you might want to **keep your files safe from harm by having backups** of them on other drives so that you still have all your data in case of disaster.

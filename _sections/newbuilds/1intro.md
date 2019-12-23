@@ -5,8 +5,7 @@ order: 1
 showOn: [New Systems]
 ---
 
-Select or customise one of the below computers, or commission a build to your requirements or exact specification.
-
+**Select or customise** one of the below computers, **or commission a fully-custom build** to meet your requirements or exact specification.
 
 All systems are **built to order**, and come with **Windows 10 pre-installed** unless otherwise requested.
 
