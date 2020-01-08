@@ -1,5 +1,5 @@
 ---
-title: Thank you
+title: Thank you!
 layout: page
 icon: fa-paper-plane
 permalink: /thanks
@@ -8,6 +8,6 @@ robots: noindex, nofollow
 canonical: false
 ---
 
-## Thank you!
+Your message was sent successfully, I usually respond within 24 hours so do not worry if there is a slight delay. I hope to speak with you soon.
 
-Your message was sent successfully, I usually respond within 24 hours.
+[Go to homepage](./)
