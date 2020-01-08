@@ -134,7 +134,7 @@
 		outline: 0;
 
 		&:hover {
-			color: #E27689;
+			color: #f0b805;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 	}
@@ -314,6 +314,70 @@
 	ol {
 		list-style: decimal;
 	}
+
+/* Feature Icons */
+
+ul.feature-icons {
+	list-style: none;
+	padding-left: 0;
+}
+
+	ul.feature-icons li {
+		text-decoration: none;
+		display: inline-block;
+		margin: 0 0 1.6875em 0;
+		padding: 0.35em 0 0 3.5em;
+		position: relative;
+		vertical-align: top;
+		width: 48%;
+	}
+
+		ul.feature-icons li:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+		}
+
+		ul.feature-icons li:before {
+			background: #f0b805;
+			border-radius: 100%;
+			color: #ffffff;
+			display: block;
+			height: 2.5em;
+			left: 0;
+			line-height: 2.5em;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: 2.5em;
+		}
+
+/* Icons */
+
+ul.icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+	ul.icons li {
+		display: inline-block;
+		padding: 0 1em 0 0;
+	}
+
+		ul.icons li:last-child {
+			padding-right: 0 !important;
+		}
+
+		ul.icons li .icon:before {
+			font-size: 1.25em;
+		}
 
 /* Form */
 
@@ -600,7 +664,7 @@
 						color: #fff;
 
 						span::before {
-							color: #e27689;
+							color: #f0b805;
 						}
 					}
 				}
