@@ -1,5 +1,5 @@
 ---
-title: Choose a pre-built system
+title: Choose a system
 icon: fa-desktop
 order: 2
 showOn: [New Systems]

@@ -1209,12 +1209,12 @@ body {
 input, textarea, select {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 19pt;
-  font-weight: 300;
+  font-weight: normal;
   line-height: 1.75em;
-  color: #888; }
+  color: #000; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+  font-weight: bolder;
   color: #666;
   line-height: 1.5em; }
 
@@ -1240,7 +1240,7 @@ footer {
   margin: 2em 0 0 0; }
 
 strong, b {
-  font-weight: 300;
+  font-weight: bolder;
   color: #666; }
 
 em, i {
@@ -1300,7 +1300,8 @@ blockquote {
   font-style: italic; }
 
 p, ul, ol, dl, table {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  font-weight: normal; }
 
 dl dt {
   font-weight: 300;
@@ -1391,7 +1392,7 @@ ul.feature-icons li {
   text-decoration: none;
   display: inline-block;
   margin: 0 0 1.6875em 0;
-  padding: 0.35em 0 0 3.5em;
+  padding: 0.35em 0 0 2.75em;
   position: relative;
   vertical-align: top;
   width: 48%; }
@@ -1412,13 +1413,13 @@ ul.feature-icons li:before {
   border-radius: 100%;
   color: #ffffff;
   display: block;
-  height: 2.5em;
+  height: 2em;
   left: 0;
-  line-height: 2.5em;
+  line-height: 2em;
   position: absolute;
   text-align: center;
   top: 0;
-  width: 2.5em; }
+  width: 2em; }
 
 /* Icons */
 ul.icons {
@@ -1697,7 +1698,9 @@ button,
     #nav ul li a span {
       position: relative;
       display: block;
-      font-size: 0.8em; }
+      font-size: 0.8em;
+      color: #f8f8ffcc;
+      font-weight: normal; }
       #nav ul li a span::before {
         position: absolute;
         left: 0;
@@ -1753,7 +1756,8 @@ button,
       color: #ddd;
       color: rgba(255, 255, 255, 0.75); }
       #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6, #main article.dark h2, #main article.dark h3, #main article.dark h4, #main article.dark h5, #main article.dark h6 {
-        color: inherit; }
+        color: inherit;
+        font-weight: bold; }
       #main > section.dark strong, #main article.dark strong {
         color: #fff;
         border-color: inherit; }

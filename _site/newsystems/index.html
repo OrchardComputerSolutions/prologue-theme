@@ -51,25 +51,25 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
             <span class="icon fa-home">Home</span>
           </a></li><li><a href="#" id="new-systems" class="active">
             <span class="icon fa-desktop">New Systems</span>
-          </a></li><hr><li><a href="#about" id="about-link" class="scrolly"><span class="icon fa-question">About</span></a></li><li><a href="#choose-a-pre-built-system" id="choose-a-pre-built-system-link" class="scrolly"><span class="icon fa-desktop">Choose a pre-built system</span></a></li><li><a href="#office" id="office-link" class="scrolly"><span class="icon fa-briefcase">Office</span></a></li><li><a href="#gaming" id="gaming-link" class="scrolly"><span class="icon fa-gamepad">Gaming</span></a></li><li><a href="#custom-builds" id="custom-builds-link" class="scrolly"><span class="icon fa-wrench">Custom Builds</span></a></li><li><a href="#contact" id="contact-link" class="scrolly"><span class="icon fa-envelope">Contact</span></a></li></ul>
+          </a></li><hr><li><a href="#info" id="info-link" class="scrolly"><span class="icon fa-info-circle">Info</span></a></li><li><a href="#choose-a-system" id="choose-a-system-link" class="scrolly"><span class="icon fa-desktop">Choose a system</span></a></li><li><a href="#office" id="office-link" class="scrolly"><span class="icon fa-briefcase">Office</span></a></li><li><a href="#gaming" id="gaming-link" class="scrolly"><span class="icon fa-gamepad">Gaming</span></a></li><li><a href="#custom-builds" id="custom-builds-link" class="scrolly"><span class="icon fa-wrench">Custom Builds</span></a></li><li><a href="#contact" id="contact-link" class="scrolly"><span class="icon fa-envelope">Contact</span></a></li></ul>
 </nav></div>
   <div class="bottom"><!-- Social Icons -->
 <ul class="icons"><li><a href="mailto:contact@orchardcomputersolutions.co.uk" class="icon fa-envelope"><span class="label">Email</span></a></li></ul>
 </div>
 </div>
 <!-- Main -->
-<div id="main"><!-- Sections --><section id="about" class="shade-two">
+<div id="main"><!-- Sections --><section id="info" class="shade-two">
   <div class="container"><header>
-			<h2>About</h2></header><p><strong>Select or customise</strong> one of the below computers, <strong>or commission a fully-custom build</strong> to meet your requirements or exact specification.</p>
+			<h2>Info</h2></header><p><strong>Select or customise</strong> one of the below computers, <strong>or commission a fully-custom build</strong> to meet your requirements or exact specification.</p>
 
 <p>All systems are <strong>built to order</strong>, and come with <strong>Windows 10 pre-installed</strong> unless otherwise requested.</p>
 
 <p><a href="#contact"><strong>Get in contact</strong></a> for more information or to make an order.</p>
 </div>
 </section>
-<section id="choose-a-pre-built-system" class="shade-three">
+<section id="choose-a-system" class="shade-three">
   <div class="container"><header>
-			<h2>Choose a pre-built system</h2></header><h3 id="select-a-pre-built-system">Select a pre-built system</h3>
+			<h2>Choose a system</h2></header><h3 id="select-a-pre-built-system">Select a pre-built system</h3>
 
 <p>Orchard Computer Solutions offer both <a href="#office">office</a> and <a href="#gaming">gaming</a> computers, starting at a low price of £300.</p>
 
@@ -175,17 +175,30 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 </section>
 <section id="contact" class="shade-three">
   <div class="container"><header>
-			<h2>Contact</h2></header><p>Get in contact to place an order, book a consultation, or request a service. Use the form below, or send an email directly to contact@orchardcomputersolutions.co.uk</p>
+			<h2>Contact</h2></header><p>Get in touch to discuss your problems or to place an order. Use the form below, or send an email directly to contact@orchardcomputersolutions.co.uk</p>
 
-<form method="post" action="https://formspree.io/contact@orchardcomputersolutions.co.uk">
+<form action="https://formsubmit.co/contact@orchardcomputersolutions.co.uk" method="POST">
   <div class="row">
-    <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-    <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+    <div class="6u 12u$(mobile)">
+      <input type="text" name="name" placeholder="Name">
+    </div>
+    <div class="6u$ 12u$(mobile)">
+      <input type="email" name="email" placeholder="Email">
+    </div>
+    <div class="12u$">
+      <input type="text" name="tel" placeholder="Mobile number">
+    </div>
     <div class="12u$">
       <textarea name="message" placeholder="Message"></textarea>
     </div>
+
+    <input type="hidden" name="_replyto">
+    <input type="hidden" name="_next" value="https://www.orchardcomputersolutions.co.uk/thanks.html">
+    <input type="hidden" name="_subject" value="New submission!">
+    <input type="hidden" name="_captcha" value="false">
+
     <div class="12u$">
-      <input type="submit" value="Send Message" />
+      <input type="submit" value="Send message"></button>
     </div>
   </div>
 </form>
@@ -193,7 +206,7 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 </section>
 </div><!-- Footer -->
 <div id="footer">
-  
+  <p>This website is still under construction</p>
   <!-- Copyright -->
   <ul class="copyright">
     <li>© Orchard Computer Solutions 2019</li>

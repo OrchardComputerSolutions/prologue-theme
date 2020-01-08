@@ -5,17 +5,30 @@ order: 10
 showOn: [Home, New Systems, Repairs and Upgrades, Data Services]
 ---
 
-<p>Get in contact to place an order, book a consultation, or request a service. Use the form below, or send an email directly to contact@orchardcomputersolutions.co.uk</p>
+<p>Get in touch to discuss your problems or to place an order. Use the form below, or send an email directly to contact@orchardcomputersolutions.co.uk</p>
 
-<form method="post" action="https://formspree.io/{{ site.email }}">
+<form action="https://formsubmit.co/contact@orchardcomputersolutions.co.uk" method="POST">
   <div class="row">
-    <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-    <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+    <div class="6u 12u$(mobile)">
+      <input type="text" name="name" placeholder="Name">
+    </div>
+    <div class="6u$ 12u$(mobile)">
+      <input type="email" name="email" placeholder="Email">
+    </div>
+    <div class="12u$">
+      <input type="text" name="tel" placeholder="Mobile number">
+    </div>
     <div class="12u$">
       <textarea name="message" placeholder="Message"></textarea>
     </div>
+
+    <input type="hidden" name="_replyto">
+    <input type="hidden" name="_next" value="https://www.orchardcomputersolutions.co.uk/thanks.html">
+    <input type="hidden" name="_subject" value="New submission!">
+    <input type="hidden" name="_captcha" value="false">
+
     <div class="12u$">
-      <input type="submit" value="Send Message" />
+      <input type="submit" value="Send message"></button>
     </div>
   </div>
 </form>

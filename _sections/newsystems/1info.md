@@ -1,6 +1,6 @@
 ---
-title: About
-icon: fa-question
+title: Info
+icon: fa-info-circle
 order: 1
 showOn: [New Systems]
 ---
