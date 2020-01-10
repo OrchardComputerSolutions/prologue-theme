@@ -1,5 +1,5 @@
 ---
-title: Info
+title: New Systems
 icon: fa-info-circle
 order: 1
 showOn: [New Systems]
