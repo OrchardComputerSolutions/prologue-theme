@@ -31,7 +31,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Orchard Computer Solutions
-subtitle: Computer Repairs in Waterlooville
+subtitle: Computer Services in Waterlooville
 description: >- # this means to ignore newlines until "baseurl:"
   PC and Laptop repairs and troubleshooting in Waterlooville, also selling office and gaming PCs starting at £300, and custom PCs built to order
 author: David Way
